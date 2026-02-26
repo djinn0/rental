@@ -1,0 +1,275 @@
+/* styling */
+  * {
+    box-sizing: border-box;
+  }
+
+      body{
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+
+
+      img.desktopBanner{
+        display: inline-block;
+        width: 100%;
+      }
+      
+      img.mobileBanner {
+        display: none;    
+      }
+
+      .title {
+        margin: auto;
+        width: 60%;
+        font-size: 3.5em;
+        color: black;
+      }
+
+      .subtitle{
+        margin: auto;
+        width: 60%;
+        font-size: 2.5em;
+        color: black;
+      }
+
+      .date {
+        width: 50%;
+        font-size: 1.5em;
+        margin: auto;
+        color: #4e4e4e;
+        margin-bottom: 2vh;
+      }
+
+      hr {
+        width: 50%;
+        font-size: 1em;
+        color: red;
+          
+      }
+
+      b {
+           font-size: 0.75em;
+      }
+
+      /* content styling */
+      .content{
+        margin: auto; /* centers content */
+        width: 60%;   /* sets width of content */
+      }
+
+      h1.content{
+        font-size: 1.75em;
+      }
+      
+      h2.content{
+        font-size: 1.5em;
+      }
+      h3.content{
+        font-size: 1.5em;
+      }
+      p.content{
+        margin-bottom: 2vh;
+        font-size: 1.5em;
+        /* prevents content from being selected of copied */   
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+      }
+
+      p.subtext{
+        margin: auto;
+        width: 56%;
+        margin-bottom: 1.5vh;
+        font-size: 1em;
+      }
+
+      /* Special content styling */ 
+      h2.contentS {
+        font-size: 1.5em;      
+      }
+
+      p.contentS {
+        margin-bottom: 2vh;  
+        font-size: 1.5em;   
+      }
+
+      /*styling for pros and cons nested list */
+      ul.content{
+        list-style-type: none;
+        font-size: 2em;
+      
+      }
+
+      #pro li{ 
+        list-style-type: none; 
+      } 
+      
+      /* Adds green checkmark to pros list*/
+      #pro li:before {
+        content: "\2714  ";
+        color: green;   
+      }
+
+      #con li{
+        list-style-type: none; 
+      }
+
+      /* Adds red x to cons list  */
+      #con li:before { 
+        content: "\2718  "; 
+        color: red;             
+      }
+
+
+/* Margin div used for spacing content, add a empty div at the start of HTML file with id m */
+      #m {
+        height: 3vh;
+        width: 100%;
+        opacity: 0.0;
+        background-color: white;
+      }
+/* Margin div used for spacing desktop content, will not be displayed in mobile content */ 
+     #dm{
+        height: 3vh;
+        width: 100%;
+        opacity: 0.0;
+        background-color: white;
+     }
+
+
+/* styling for button */ 
+ .button{
+      background-color: #094c72;
+      color: white;
+      border-radius: 6px;
+      border: 2px solid black;
+      font-size: 1.5em;
+      padding: 10px 20px;
+      margin-bottom: 2vh;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+     a.blue-button{
+     position: absolute;
+     color: white;
+     background-color: #0492C2;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     padding: 5px 10px;
+     font-size: 1.2em;
+     left: 20%;
+     z-index: 3;
+   }
+     
+      
+/* Styling for mobile content */
+       @media only screen and (max-width: 1000px){
+         body{
+         margin: 0;
+         padding: 0;
+         background-color: white;
+         }
+
+         b {
+           font-size: 2.5vmin;
+         }
+       
+        .content{
+          margin: auto;
+          width: 90%;
+        }
+       
+         image.background {
+           width: 100%;
+         }
+
+         /* different sized pictures are displayed for mobile and desktop versions */   
+         img.desktopBanner{
+           display: none;  
+         }
+      
+         img.mobileBanner {
+           display: inline-block;
+           width: 100%;
+         }
+
+        .title {
+          margin: auto;
+          width: 90%;
+          color: black;
+          font-size: 9vmin;
+          text-align: left;
+        }
+
+        .subtitle {
+          margin: auto;
+          width: 90%;
+          color: #404040;
+          font-size: 6vmin;
+          text-align: left;
+        }
+            
+        .date {
+          font-size: 5vmin;
+          width: 90%;
+          text-align: center;
+        }
+
+     /* Margin div used for spacing desktop content, will not be displayed in mobile content */ 
+        #dm{
+          display: none;
+        }  
+            
+        h1.content {
+          font-size: 8vmin;
+        }
+
+        h2.content {
+          font-size: 5vmin;
+        }
+        h3.content {
+          font-size: 4vmin;
+        }
+        p.content {
+          font-size: 4vmin;
+        }
+
+        ul.content{
+        font-size: 5vmin;
+        }
+
+        /* Special content mobile styling */ 
+        h2.contentS {
+          font-size: 5vmin;      
+        }
+  
+        p.contentS {
+          font-size: 4vmin;   
+        }
+
+        /* mobile styling for button (change of font) */     
+        .button{
+         font-size: 4vmin;
+        }
+        
+        a.blue-button{
+          left: 6%;
+          font-size: 5vmin;
+          color: white;
+        }
+
+        p.subtext{
+          font-size: 3vmin;
+        }
+
+
+             
+       }
