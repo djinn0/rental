@@ -3,133 +3,105 @@
     box-sizing: border-box;
   }
 
-      body{
-        margin: 0;
-        padding: 0;
-        background-color: white;
-      }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
 
 
-      img{
-        max-width: 100%;
-        height: auto;
-      }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
 
-
-      img.desktopBanner{
-        display: inline-block;
-        width: 100%;
-      }
+  img.desktopBanner{
+    display: inline-block;
+    width: 100%;
+  }
       
-      img.mobileBanner {
-        display: none;    
-      }
+  img.mobileBanner {
+    display: none;    
+  }
 
-      .title {
-        margin: auto;
-        width: 60%;
-        font-size: 3.5em;
-        color: black;
-      }
+  .title {
+    margin: auto;
+    width: 60%;
+    font-size: 3.5em;
+    color: black;
+   }
 
-      .subtitle{
-        margin: auto;
-        width: 60%;
+   .subtitle{
+     margin: auto;
+     width: 60%;
         font-size: 2.5em;
         color: black;
       }
 
-      .date {
-        width: 50%;
-        font-size: 1.5em;
-        margin: auto;
-        color: #4e4e4e;
-        margin-bottom: 2vh;
-      }
+    .date {
+      width: 50%;
+      font-size: 1.5em;
+      margin: auto;
+      color: #4e4e4e;
+      margin-bottom: 2vh;
+    }
 
-      hr {
-        width: 50%;
-        font-size: 1em;
-        color: red;
-          
-      }
+    hr {
+      width: 50%;
+      font-size: 1em;
+      color: red;
+    }
 
-      b {
-           font-size: 0.75em;
-      }
+    b {
+      font-size: 0.75em;
+    }
 
-      /* content styling */
-      .content{
-        margin: auto; /* centers content */
-        width: 60%;   /* sets width of content */
-      }
+    /* content styling */
+    .content{
+      margin: auto; /* centers content */
+      width: 60%;   /* sets width of content */
+    }
 
-      h1.content{
-        font-size: 1.75em;
-      }
+    h1.content{
+      font-size: 1.75em;
+    }
       
-      h2.content{
-        font-size: 1.5em;
-      }
-      h3.content{
-        font-size: 1.5em;
-      }
-      p.content{
-        margin-bottom: 2vh;
+    h2.content{
+      font-size: 1.5em;
+    }
+      
+    h3.content{
+      font-size: 1.5em;
+    }
+    
+    p.content{
+      margin-bottom: 2vh;
         font-size: 1.5em;
         /* prevents content from being selected of copied */   
-        -webkit-user-select: none; /* Safari */
-        -ms-user-select: none; /* IE 10 and IE 11 */
-        user-select: none; /* Standard syntax */
-      }
+      -webkit-user-select: none; /* Safari */
+      -ms-user-select: none; /* IE 10 and IE 11 */
+      user-select: none; /* Standard syntax */
+    }
 
-      p.subtext{
-        margin: auto;
-        width: 56%;
-        margin-bottom: 1.5vh;
-        font-size: 1em;
-      }
+    p.subtext{
+      margin: auto;
+      width: 56%;
+      margin-bottom: 1.5vh;
+      font-size: 1em;
+    }
 
-      /* Special content styling */ 
-      h2.contentS {
-        font-size: 1.5em;      
-      }
+    /* Special content styling */ 
+    h2.contentS {
+      font-size: 1.5em;      
+    }
 
-      p.contentS {
-        margin-bottom: 2vh;  
-        font-size: 1.5em;   
-      }
-
-      /*styling for pros and cons nested list */
-      ul.content{
-        list-style-type: none;
-        font-size: 2em;
-      
-      }
-
-      #pro li{ 
-        list-style-type: none; 
-      } 
-      
-      /* Adds green checkmark to pros list*/
-      #pro li:before {
-        content: "\2714  ";
-        color: green;   
-      }
-
-      #con li{
-        list-style-type: none; 
-      }
-
-      /* Adds red x to cons list  */
-      #con li:before { 
-        content: "\2718  "; 
-        color: red;             
-      }
-
+    p.contentS {
+      margin-bottom: 2vh;  
+      font-size: 1.5em;   
+    }
 
 /* Margin div used for spacing content, add a empty div at the start of HTML file with id m */
-      #m {
+  #m {
         height: 3vh;
         width: 100%;
         opacity: 0.0;
@@ -268,8 +240,5 @@
 
         p.subtext{
           font-size: 3vmin;
-        }
-
-
-             
+        } 
        }
