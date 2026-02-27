@@ -31,7 +31,7 @@ function generateFooter()
   } else {
     var sf1 = 'div.footer {position: static; margin-top: 1.5vh; z-index: 11; width: 100%; background-color: #333; }';
   }
-  var sf2 = '#anchor{color: white; font-size: 1.75em; text-align: center;}';
+  var sf2 = '#anchor{color: white; font-size: 1.75em; padding: 0.25em; text-align: center;}';
   var sf3 = '#element { padding: 8px 40px; display: flex; justify-content: space-between; }';
   var sf4 = '#element > a { color: white; text-decoration: none; font-size: 1.3em; display: inline-block; }';
   /* styling mobile */
