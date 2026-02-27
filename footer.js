@@ -11,7 +11,7 @@ function generateFooter()
   let d = new Date();
   let n = d.getFullYear(); /* Adds current year to footer */
   let e1 = '<a href="contact.html">Contact</a>';
-  let e2 = '<a href="disclosure.html">Escapade Outfitters &copy' + n + '</a>';
+  let e2 = '<a href="disclosure.html">Escapade Outfitters1 &copy' + n + '</a>';
   let e3 = '<a href="disclosure.html">Disclosure</a>';
   let element = '<div id="element">' + e1 + e2 + e3 + '</div>';
   let anchor = '<div id="anchor">' + "\u26F0" + '</div>';
@@ -32,7 +32,7 @@ function generateFooter()
     var sf1 = 'div.footer {position: static; margin-top: 1.5vh; z-index: 11; width: 100%; background-color: #333; }';
   }
   var sf2 = '#anchor{color: white; font-size: 1.75em; padding: 0.25em; text-align: center;}';
-  var sf3 = '#element { padding: 8px 40px; display: flex; justify-content: space-between; }';
+  var sf3 = '#element { padding: .25em 40px; display: flex; justify-content: space-between; }';
   var sf4 = '#element > a { color: white; text-decoration: none; font-size: 1.3em; display: inline-block; }';
   /* styling mobile */
   var sm1 = 'div.footer{margin-top: 0;}';
