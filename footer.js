@@ -13,7 +13,7 @@ function generateFooter()
   let e1 = '<a href="contact.html">Contact</a>';
   let e2 = '<a href="disclosure.html">Escapade Outfitters &copy' + n + '</a>';
   let element = '<div id="element">' + e1 + e2 + '</div>';
-  /* let anchor = '<div id="mountain">' + "&#9968"; + '</div>'; */
+  /* let anchor = '<div id="mountain">' + "u26F0"; + '</div>'; */
   x.insertAdjacentHTML('beforeend', '<div class="footer" id="footer">' + element + mountain + '</div>');
   
   /* styling */
