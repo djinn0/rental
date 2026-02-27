@@ -14,7 +14,7 @@ function generateFooter()
   let e2 = '<a href="disclosure.html">Escapade Outfitters &copy' + n + '</a>';
   let e3 = '<a href="disclosure.html">Disclosure</a>';
   let element = '<div id="element">' + e1 + e2 + e3 + '</div>';
-  let anchor = '<div id="anchor">' + "\u2693" + '</div>';
+  let anchor = '<div id="anchor">' + "\u26F0" + '</div>';
   x.insertAdjacentHTML('beforeend', '<div class="footer" id="footer">' + element + anchor + '</div>');
   
   /* styling */
