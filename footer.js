@@ -33,7 +33,7 @@ function generateFooter()
   }
   var sf2 = '#anchor{color: white; font-size: 1.75em; text-align: center;}';
   var sf3 = '#element { padding: 8px 40px; display: flex; justify-content: space-between; }';
-  var sf4 = '#element > a { color: white; text-decoration: none; font-size: 1.5em; display: inline-block; }';
+  var sf4 = '#element > a { color: white; text-decoration: none; font-size: 1.3em; display: inline-block; }';
   /* styling mobile */
   var sm1 = 'div.footer{margin-top: 0;}';
   var sm2 = '#anchor{color: white; font-size: 6vmin; text-align: center;}';
