@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  <head>
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="photo/graphic/favicon_anchor.png">
+    <meta name="keywords" content="contact, sextoyahoy blog, sex toy">
+    <meta name="description" content="Contact information for Escapade Outfitters LLC travel gear rental">
+    <script src="NavBar2.js"></script>
+    <script src="footer2.js"></script>
+    <!-- This function reveals email address when button is clicked making it accessable to human users while keeping is inacessable to webscraper bots  -->
+    <script>
+      function reveal() {
+        var part1 = "Hello";
+        var part2 = "World";
+        var part3 = "@gmail.com";
+        document.getElementById("email").innerHTML = "<a href=mailto:" + part1 + part2 + part3 + ">" + part1 + part2 + part3 + "</a>";
+      }
+      
+      window.onload = scrollToBottom;
+    </script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>    </style>
+  </head>
+  <body>
+
+    <img src='photo/background/FloridaBeach2.jpg' alt='person standing on a beach' class='desktopBanner'>
+    <img src='photo/background/FloridaBeach.jpg' alt='person standing on a beach' class='mobileBanner'>
+    
+
+
+    <h1 class='title'>Contact Me</h1>
+    <h2 class='content'>Email</h2>
+    <p class='content'>If you have any questions about the toys I have reviewed, are interested in having me review an item, or just want to chat please reach out.
+    I will do my best to respond to emails quickly but crafting a appropriate response can take time.</p>
+    <div class='content'>
+      <button class='button' type='button' onclick='reveal()'>Display Email</button>
+    </div>
+    <p class='content' id='email'>Obscured Email</p>
+
+    
+
+    <h2 class='content'>Social Media</h2>
+    <p class='content'>There are currently no social media accounts associated with this review website. 
+    In the future when I create social media accounts  for Sex Toy Ahoy, I will add links here.</p>
+    
+    <!--  <h1 class='content'>Test 28</h1> -->
+    <div id='dm'></div>
+    <div id='dm'></div>
+    <div id='dm'></div>
+  </body>
+
+
+</html>
