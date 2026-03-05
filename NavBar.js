@@ -12,14 +12,13 @@ function generateSelectorNavBar() {
     /* - Elements of Navigation bar  (e = Element, edc = dropdown content, dm = dropdown menu)*/
     var b = document.getElementsByTagName("body")[0];
     var h = document.getElementsByTagName('head')[0];
-    var e1 = '<li class="navigation-element"><a href="index.html">Escapade Outfitters</a></li>';
-    var e2 = '<li class="navigation-element"><a href="recent.html">Place Holder 1</a></li>';
+    var e1 = '<li class="navigation-element"><a href="index.html">&#9968 Escapade Outfitters 1</a></li>';
     var edc1 = '<a href="items.html">Rental Gear</a>'; 
     var edc2 = '<a href="ArticleList3.html">Place Holder 3</a>'; 
     var edc3 = '<a href="gridPractice2.html">Place Holder 4</a>';
     var edm = '<div class="dropdown-content">' + edc1 + edc2 + edc3 + '</div>';
     var e3 = '<li class="navigation-element" id="dropdown"><a href="#">Menu&#9662;</a>' + edm + '</li>';
-    b.insertAdjacentHTML('afterbegin','<div id="nbsContainer"><ul class="navigation-bar" id="nbs">' + e1 + e2 + e3 + '</ul>' + '</div>');
+    b.insertAdjacentHTML('afterbegin','<div id="nbsContainer"><ul class="navigation-bar" id="nbs">' + e1 + e3 + '</ul>' + '</div>');
 
 }
 
